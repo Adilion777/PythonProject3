@@ -2,10 +2,6 @@ import os
 import csv
 import json
 
-# ─────────────────────────────────────────
-# Task 1 — Class FileManager
-# ─────────────────────────────────────────
-
 class FileManager:
     def __init__(self, filename):
         self.filename = filename
@@ -28,10 +24,6 @@ class FileManager:
         else:
             print(f"Output folder already exists: {folder}/")
 
-
-# ─────────────────────────────────────────
-# Task 2 — Class DataLoader
-# ─────────────────────────────────────────
 
 class DataLoader:
     def __init__(self, filename):
@@ -58,10 +50,6 @@ class DataLoader:
             print(f"{student['student_id']} | {student['age']} | {student['gender']} | {student['country']} | GPA: {student['GPA']}")
         print("----------------------------")
 
-
-# ─────────────────────────────────────────
-# Task 3 — Class DataAnalyser (Variant C)
-# ─────────────────────────────────────────
 
 class DataAnalyser:
     def __init__(self, students):
@@ -108,10 +96,6 @@ class DataAnalyser:
         print("----------------------------")
 
 
-# ─────────────────────────────────────────
-# Task 4 — Class ResultSaver
-# ─────────────────────────────────────────
-
 class ResultSaver:
     def __init__(self, result, filepath):
         self.result   = result
@@ -123,10 +107,6 @@ class ResultSaver:
         print()
         print(f"Result saved to {self.filepath}")
 
-
-# ─────────────────────────────────────────
-# Task 5 — Main: Putting It All Together
-# ─────────────────────────────────────────
 
 fm = FileManager("students.csv")
 if not fm.check_file():
