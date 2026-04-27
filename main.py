@@ -54,11 +54,11 @@ class DataAnalyser:
         self.result = {}
 
     def analyse(self):
-        # Use filter + lambda to split groups
+        # Using filter + lambda to split groups
         low_sleep_students  = list(filter(lambda s: float(s['sleep_hours']) < 6,  self.students))
         high_sleep_students = list(filter(lambda s: float(s['sleep_hours']) >= 6, self.students))
 
-        # Use map + lambda to extract GPA values
+        # Using map + lambda to extract GPA values
         low_sleep_gpas  = list(map(lambda s: float(s['GPA']), low_sleep_students))
         high_sleep_gpas = list(map(lambda s: float(s['GPA']), high_sleep_students))
 
