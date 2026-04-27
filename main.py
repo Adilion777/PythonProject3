@@ -48,6 +48,8 @@ class DataLoader:
         for student in self.students[:n]:
             print(f"{student['student_id']} | {student['age']} | {student['gender']} | {student['country']} | GPA: {student['GPA']}")
         print("----------------------------")
+
+
 class DataAnalyser:
     def __init__(self, students):
         self.students = students
@@ -75,6 +77,7 @@ class DataAnalyser:
         }
         return self.result
 
+
     def print_results(self):
         print()
         print("----------------------------")
@@ -86,6 +89,9 @@ class DataAnalyser:
               f"avg GPA: {self.result['high_sleep']['avg_gpa']}")
         print(f"GPA difference : {self.result['gpa_difference']}")
         print("----------------------------")
+
+
+
 class ResultSaver:
     def __init__(self, result, filepath):
         self.result = result
