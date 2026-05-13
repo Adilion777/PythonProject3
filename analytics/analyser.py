@@ -1,6 +1,3 @@
-# ──────────────────────────────────────────────
-# Base Class
-# ──────────────────────────────────────────────
 
 class DataAnalyser:
     def __init__(self, students):
@@ -18,9 +15,8 @@ class DataAnalyser:
         return f"DataAnalyser: base class, {len(self.students)} students"
 
 
-# ──────────────────────────────────────────────
 # Variant C Child Class
-# ──────────────────────────────────────────────
+
 
 class SleepAnalyser(DataAnalyser):
     """Variant C — analyses GPA difference between low-sleep and high-sleep students."""
@@ -59,10 +55,8 @@ class SleepAnalyser(DataAnalyser):
         return f"SleepAnalyser: Sleep Analysis, {len(self.students)} students"
 
 
-# ──────────────────────────────────────────────
-# Extra class for polymorphism demo (Variant A)
-# ──────────────────────────────────────────────
 
+# Extra class for polymorphism demo (Variant A)
 class GpaAnalyser(DataAnalyser):
     def __init__(self, students):
         super().__init__(students)

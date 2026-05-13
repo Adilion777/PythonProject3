@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3655b017-0155-49fd-b259-191ed52d4c48" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/analytics/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analytics/analyser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analytics/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analytics/file_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analytics/report.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analytics/result_saver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_analyser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_analyser.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_analyser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +50,7 @@
     "Python tests.Python tests in test_analyser.py.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -174,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777270698706</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=".">
+      <option name="closed" value="true" />
+      <created>1778693061644</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1778693061644</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

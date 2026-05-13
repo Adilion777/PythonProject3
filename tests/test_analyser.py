@@ -1,17 +1,3 @@
-# Test results:
-# test_analyse_twice (tests.test_analyser.TestAnalyser.test_analyse_twice)
-# Calling analyse() twice must produce identical results. ... ok
-# test_result_has_required_keys (tests.test_analyser.TestAnalyser.test_result_has_required_keys)
-# Result must contain all Variant C required keys. ... ok
-# test_result_is_not_empty (tests.test_analyser.TestAnalyser.test_result_is_not_empty)
-# After analyse(), result must not be an empty dictionary. ... ok
-# test_total_students (tests.test_analyser.TestAnalyser.test_total_students)
-# result['total_students'] must equal the sample size (5). ... ok
-#
-# ----------------------------------------------------------------------
-# Ran 4 tests in 0.001s
-#
-# OK
 
 import unittest
 from analytics.analyser import SleepAnalyser
